@@ -2,57 +2,56 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#fff">
+    android:background="#fff"
+    android:orientation="vertical">
 
 
-
-<LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background_divide_line"
         android:orientation="horizontal"
-        android:paddingBottom="16dp">
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:text="0" />
+            android:text="0"
+            android:textSize="28sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="," />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0" />
+            android:text=","
+            android:textSize="28sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingRight="5dp"
-            android:text="0" />
+            android:text="00"
+            android:textSize="28sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="грн." />
+            android:text="грн."
+            android:textSize="24sp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="16dp">
+            android:layout_centerHorizontal="true">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:src="@drawable/ic_content_backspace" />
@@ -71,27 +70,30 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="1" />
+                android:paddingTop="8dp"
+                android:text="1"
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="2" />
+                android:paddingTop="8dp"
+                android:text="2"
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="3" />
+                android:paddingTop="8dp"
+                android:text="3"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow>
@@ -101,27 +103,30 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="4" />
+                android:paddingTop="8dp"
+                android:text="4"
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="5" />
+                android:paddingTop="8dp"
+                android:text="5"
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="6" />
+                android:paddingTop="8dp"
+                android:text="6"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow>
@@ -131,82 +136,91 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="7" />
+                android:paddingTop="8dp"
+                android:text="7"
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="8" />
+                android:paddingTop="8dp"
+                android:text="8"
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
                 android:gravity="center_horizontal"
-                android:text="9" />
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="9"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow android:background="@drawable/background_divide_line">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
-                android:text="," />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:paddingTop="8dp"
                 android:paddingBottom="8dp"
-                android:text="0" />
+                android:paddingTop="8dp"
+                android:text=","
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="" />
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="0"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="24sp" />
         </TableRow>
     </TableLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="CANCEL"
-            android:layout_alignParentTop="true"
-            android:layout_toLeftOf="@+id/button"
-            android:layout_toStartOf="@+id/button"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-/>
 
         <Button
+            android:id="@+id/dialog_cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="OK"
             android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="8dp"
             android:layout_marginEnd="8dp"
-            android:paddingRight="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/dialog_ok"
+            android:layout_toStartOf="@+id/dialog_ok"
+            android:text="CANCEL" />
+
+        <Button
+            android:id="@+id/dialog_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:paddingLeft="8dp"
-            android:id="@+id/button" />
+            android:paddingRight="8dp"
+            android:text="OK" />
 
     </RelativeLayout>
 </LinearLayout>
