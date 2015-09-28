@@ -12,10 +12,10 @@ import org.robolectric.util.ReflectionHelpers;
 
 /**
  * More dynamic path resolution.
- *
+ * <p/>
  * This workaround is only for Mac Users necessary and only if they don't use the $MODULE_DIR$
  * workaround mentioned at http://robolectric.org/getting-started/.
- *
+ * <p/>
  * Follow this issue at https://code.google.com/p/android/issues/detail?id=158015
  */
 public class CustomRobolectricRunner extends RobolectricTestRunner {
